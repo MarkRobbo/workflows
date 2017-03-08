@@ -68,7 +68,7 @@ hints:
 
 steps:
   - id: lobSTR
-    run: lobSTR-tool.cwl
+    run: ../../../../../traverse.cwl
     inputs:
       - { id: p1, source: "#p1" }
       - { id: p2, source: "#p2" }
