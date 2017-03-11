@@ -81,7 +81,7 @@ steps:
       - { id: bam_stats }
 
   - id: samsort
-    run: samtools-sort.cwl
+    run: ../../../../../samtools-sort.cwl
     inputs:
       - { id: input, source: "#lobSTR/bam" }
       - { id: output_name, default: "aligned.sorted.bam" }
