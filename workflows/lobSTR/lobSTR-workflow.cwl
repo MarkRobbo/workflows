@@ -6,9 +6,9 @@ class: Workflow
 inputs:
   - id: p1
     type:
-      - "null"
       - type: array
         items: File
+      - "null"
     description: list of files containing the first end of paired end reads in fasta or fastq format
 
   - id: p2
