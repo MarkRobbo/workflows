@@ -1,4 +1,4 @@
-#!/usr/bin/env cwl-runner
+#!/usr/bin/env cwl-runner 
 cwlVersion: v1.0
 $graph:
 - id: rnaseq
