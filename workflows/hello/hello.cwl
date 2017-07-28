@@ -27,7 +27,7 @@ $graph:
   outputs:
     output:
       type: File
-      outputSource: step0/echo-out
+      outputSource: test/echo-out
   steps:
     test:
       run: "#echocmd"
