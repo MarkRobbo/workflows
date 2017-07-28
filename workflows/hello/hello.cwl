@@ -29,7 +29,7 @@ $graph:
       type: File
       outputSource: step0/echo-out
   steps:
-    step0:
+    test:
       run: "#echocmd"
       in: []
       out: [echo-out]
