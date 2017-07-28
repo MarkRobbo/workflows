@@ -7,7 +7,7 @@ $graph:
   inputs:
     echo-in:
       type: string
-      label: "Message"
+      label: "MessageTest"
       doc: "The message to print"
       default: "Hello World"
       inputBinding: {}
