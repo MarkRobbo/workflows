@@ -29,7 +29,7 @@ $graph:
       type: File
       outputSource: change/echo-out
   steps:
-    change:
+    sdnaodandoisadisa:
       run: "#echocmd"
       in: []
       out: [echo-out]
