@@ -11,6 +11,8 @@ $graph:
       doc: "The message to print"
       default: "Hello World"
       inputBinding: {}
+    second:
+      type: File[]?
   outputs:
     echo-out:
       type: stdout
@@ -29,7 +31,7 @@ $graph:
       type: File
       outputSource: change/echo-out
   steps:
-    sdnaodandoisadisa:
+    change:
       run: "#echocmd"
       in: []
       out: [echo-out]
