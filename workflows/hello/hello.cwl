@@ -11,8 +11,6 @@ $graph:
       doc: "The message to print"
       default: "Hello World"
       inputBinding: {}
-    second:
-      type: File[]?
   outputs:
     echo-out:
       type: stdout
@@ -25,7 +23,9 @@ $graph:
   class: Workflow
   label: "Hello World"
   doc: "Puts a message into a file using echo"
-  inputs: []
+  inputs:
+    inputnamehere:
+      type: File[]?
   outputs:
     output:
       type: File
